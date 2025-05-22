@@ -1,11 +1,11 @@
 #!/bin/bash
 
 ###############################################################################
-# Author: Abhishek Veeramalla
+# Author: Praneet Biswal
 # Version: v0.0.1
 
-# Script to automate the process of listing all the resources in an AWS account
-#
+# Script to automate the process of listing all the services in an AWS account
+
 # Below are the services that are supported by this script:
 # 1. EC2
 # 2. RDS
@@ -25,7 +25,7 @@
 #
 # The script will prompt the user to enter the AWS region and the service for which the resources need to be listed.
 #
-# Usage: ./aws_resource_list.sh  <aws_region> <aws_service>
-# Example: ./aws_resource_list.sh us-east-1 ec2
+# Usage: ./aws_services_list.sh  <aws_region> <aws_service>
+# Example: ./aws_services_list.sh us-east-1 ec2
 #############################################################################
 
